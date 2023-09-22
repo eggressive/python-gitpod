@@ -1,20 +1,10 @@
 tasks:
-  - name: terraform
+  - name: python
     init: |
-      sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
-      curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
-      sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
-      sudo apt-get update && sudo apt-get install terraform
-  - name: aws-cli
-    env:
-      AWS_CLI_AUTO_PROMPT: on-partial
-    init: |
-      cd /workspace
-      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-      unzip awscliv2.zip
-      sudo ./aws/install
-      cd $THEIA_WORKSPACE_ROOT
+      sudo apt-get update && sudo apt-get install python3-pip python3-venv python3-dev build-essential libssl-dev libffi-dev -y
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
-    - hashicorp.terraform
+    - ms-python.python
+    - donjayamanne.python-extension-pack
+    - donjayamanne.python-environment-manager
