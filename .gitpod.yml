@@ -1,5 +1,9 @@
 image: gitpod/workspace-python-3.12
 
+tasks:
+    - name: Setup
+      init: cp ./dev-env/bash_aliases ~/.bash_aliases
+
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
