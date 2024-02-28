@@ -1,15 +1,7 @@
 # Gitpod Launchpad for Python 3.12
 
-## Standard setup for gitpod
+## Standard setup for gitpod wiht Python 3.12 and llama 2
 
-### VSCode extensions
+### Chat Models via Togeher.ai API
 
-```yaml
-vscode:
-  extensions:
-    - amazonwebservices.aws-toolkit-vscode
-    - ms-python.python
-    - ms-toolsai.jupyter
-    - donjayamanne.python-extension-pack
-    - donjayamanne.python-environment-manager
-```
+[Click here](https://docs.together.ai/docs/inference-models) to access the Togeher.ai inference models documentation.
