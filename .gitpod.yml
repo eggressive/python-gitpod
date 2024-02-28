@@ -1,8 +1,10 @@
 image: gitpod/workspace-python-3.12
 
 tasks:
-    - name: Setup
-      init: cp ./dev-env/bash_aliases ~/.bash_aliases
+    - name: dev env setup
+      init: |
+        cp ./dev-env/bash_aliases ~/.bash_aliases
+        source ~/.bashrc
 
 vscode:
   extensions:
