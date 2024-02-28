@@ -1,10 +1,6 @@
-# Google course in Python
+# Gitpod Launchpad for Python 3.12
 
 ## Standard setup for gitpod
-
-### Packages
-
-`sudo apt-get install python3-pip python3-venv python3-dev build-essential libssl-dev libffi-dev -y`
 
 ### VSCode extensions
 
@@ -13,6 +9,7 @@ vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
     - ms-python.python
+    - ms-toolsai.jupyter
     - donjayamanne.python-extension-pack
     - donjayamanne.python-environment-manager
 ```
