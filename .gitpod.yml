@@ -1,10 +1,9 @@
-tasks:
-  - name: python
-    init: |
-      sudo apt-get update && sudo apt-get install python3-pip python3-venv python3-dev build-essential libssl-dev libffi-dev -y
+image: gitpod/workspace-python-3.12
+
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
     - ms-python.python
+    - ms-toolsai.jupyter
     - donjayamanne.python-extension-pack
     - donjayamanne.python-environment-manager
