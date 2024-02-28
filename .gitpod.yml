@@ -5,11 +5,3 @@ tasks:
       init: |
         cp ./dev-env/bash_aliases ~/.bash_aliases
         source ~/.bashrc
-
-vscode:
-  extensions:
-    - amazonwebservices.aws-toolkit-vscode
-    - ms-python.python
-    - ms-toolsai.jupyter
-    - donjayamanne.python-extension-pack
-    - donjayamanne.python-environment-manager
