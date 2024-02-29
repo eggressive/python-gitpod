@@ -1,8 +1,8 @@
-# Gitpod Launchpad for Python 3.12
+# Gitpod Launchpad for Prompt Engineering with Llama 2
 
-## Standard setup for gitpod wiht Python 3.12 and llama 2
+## Standard setup for gitpod with Python 3.12 and llama 2
 
-### Chat Models via Together.ai API
+### Chat Models by Together.ai API
 
 [Click here](https://docs.together.ai/docs/inference-models) to access the Togeher.ai inference models documentation.
 
