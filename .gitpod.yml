@@ -10,3 +10,10 @@ tasks:
         python3 -m venv .venv && source .venv/bin/activate
         python -m pip install --upgrade pip
         pip install -r requirements.txt
+
+vscode:
+  extensions:
+    - ms-python.python
+    - ms-toolsai.jupyter
+    - donjayamanne.python-extension-pack
+    - donjayamanne.python-environment-manager
