@@ -21,3 +21,5 @@ vscode:
     - donjayamanne.python-extension-pack
     - donjayamanne.python-environment-manager
     - njpwerner.autodocstring
+    - cloudstudio.coding
+
