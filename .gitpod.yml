@@ -1,9 +1,28 @@
 image: gitpod/workspace-python-3.12
 
+tasks:
+    - name: dev env setup
+      init: |
+        cp ./dev-env/bash_aliases ~/.bash_aliases
+        source ~/.bashrc
+    - name: Setup python3 venv
+      init: |
+        python3 -m venv .venv && source .venv/bin/activate
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
 vscode:
   extensions:
-    - amazonwebservices.aws-toolkit-vscode
     - ms-python.python
-    - ms-toolsai.jupyter
+    - ms-python.debugpy
+    - kevinrose.vsc-python-indent
+    - wholroyd.jinja 
     - donjayamanne.python-extension-pack
     - donjayamanne.python-environment-manager
+    - njpwerner.autodocstring
+    - batisteo.vscode-django
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+    - ms-toolsai.vscode-jupyter-cell-tags
+    - ms-toolsai.vscode-jupyter-slideshow
