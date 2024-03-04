@@ -17,9 +17,12 @@ vscode:
     - ms-python.debugpy
     - kevinrose.vsc-python-indent
     - wholroyd.jinja 
-    - ms-toolsai.jupyter
     - donjayamanne.python-extension-pack
     - donjayamanne.python-environment-manager
     - njpwerner.autodocstring
-    - cloudstudio.coding
-
+    - batisteo.vscode-django
+    - ms-toolsai.jupyter
+    - ms-toolsai.jupyter-keymap
+    - ms-toolsai.jupyter-renderers
+    - ms-toolsai.vscode-jupyter-cell-tags
+    - ms-toolsai.vscode-jupyter-slideshow
